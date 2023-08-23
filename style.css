@@ -67,3 +67,31 @@ button {
     padding: 10px;
     border: none;
 }
+
+/* images section */
+.imagesSection {
+    padding-bottom: 50px;
+}
+
+.infoHeaderText {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.imageDivs {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.imageDiv {
+    width: 10%;
+}
+
+.imageDiv img {
+    width: 100%;
+    border-radius: 10px;
+    border
+}
