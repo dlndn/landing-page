@@ -61,10 +61,10 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
+    padding: 5px 20px;
 }
 
 #heroButton {
-    padding: 10px;
     border: none;
 }
 
@@ -119,4 +119,38 @@ button {
     font-size: 24px;
     font-weight: bold;
     text-align: end;
+}
+
+/* call-to-action section */
+.callToActionSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.callToActionDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    gap: 100px;
+    padding: 25px 50px;
+    color:#F9FAF8;
+    width: 50%;
+}
+
+.callToActionHeader { 
+    line-height: 0px;
+    font-size: 20px;
+
+}
+
+.callToActionDescription {
+    line-height: 0px;
+}
+
+#callToActionButton {
+    border: solid white 1px;
 }
