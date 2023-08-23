@@ -152,5 +152,15 @@ button {
 }
 
 #callToActionButton {
-    border: solid white 1px;
+    border: solid #F9FAF8 1px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px 32px;
+}
+
+.footer p {
+    text-align: center;
 }
