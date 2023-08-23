@@ -2,6 +2,7 @@
 /* header */
 .headerHeroSection {
     background-color: #1F2937;
+    padding: 32px;
 }
 
 .header {
@@ -22,6 +23,20 @@
 }
 
 /* hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.heroLeft {
+    width: 500px;
+}
+
+.heroRightImg {
+    width: 500px;
+}
+ 
 .heroMainText {
     font-size: 48px;
     font-weight: bolder;
@@ -32,7 +47,6 @@
     font-size: 18px;
     color: #e5e7eb;
 }
-
 
 .headerLinks li { 
     list-style: none;
@@ -45,4 +59,11 @@ a {
 
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+#heroButton {
+    padding: 10px;
+    border: none;
 }
